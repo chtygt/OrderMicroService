@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="7.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CustomerService\Services.Customer.Client\Services.Customer.Client.csproj" />
+    <ProjectReference Include="..\..\OrderService\Services.Order.Client\Services.Order.Client.csproj" />
+    <ProjectReference Include="..\..\ProductService\Services.Product.Client\Services.Product.Client.csproj" />
+    <ProjectReference Include="..\..\Shared\Services.Shared.Authentication.Helper\Services.Shared.Authentication.Helper.csproj" />
+    <ProjectReference Include="..\..\Shared\Services.Shared.EventBus\Services.Shared.EventBus.csproj" />
+    <ProjectReference Include="..\..\Shared\Services.Shared.Models\Services.Shared.Models.csproj" />
+    <ProjectReference Include="..\Services.Report.Repositories\Services.Report.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

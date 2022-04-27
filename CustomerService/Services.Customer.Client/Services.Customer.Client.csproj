@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+		<PackageReference Include="RestSharp" Version="107.0.3" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Shared\Services.Shared.Authentication.Helper\Services.Shared.Authentication.Helper.csproj" />
+	  <ProjectReference Include="..\..\Shared\Services.Shared.Client\Services.Shared.Client.csproj" />
+	  <ProjectReference Include="..\Services.Customer.Model\Services.Customer.Model.csproj" />
+	</ItemGroup>
+</Project>

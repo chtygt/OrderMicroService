@@ -1,0 +1,148 @@
+version: '3.9'
+
+services:
+
+#######################   SERVICES   ######################
+    authentication-service:
+        image: ${DOCKER_REGISTRY-}customer-service
+        container_name: customer-service
+        hostname: customer-service
+        restart: always
+        depends_on:
+            - customer-service-db
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        ports:
+            - "3000:80"
+            - "3001:443" 
+        build:
+            context: .
+            dockerfile: CustomerService/Services.Customer.Api/Dockerfile
+
+    contact-service:
+        image: ${DOCKER_REGISTRY-}product-service
+        container_name: product-service
+        hostname: product-service
+        restart: always
+        depends_on:
+            - product-service-db
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        ports:
+            - "3010:80"
+            - "3011:443" 
+        build:
+            context: .
+            dockerfile: ProductService/Services.Product.Api/Dockerfile
+
+    order-service:
+        image: ${DOCKER_REGISTRY-}order-service
+        container_name: order-service
+        hostname: order-service
+        restart: always
+        depends_on:
+            - order-service-db
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        ports:
+            - "3020:80"
+            - "3021:443" 
+        build:
+            context: .
+            dockerfile: OrderService/Services.Order.Api/Dockerfile
+
+    report-service:
+        image: ${DOCKER_REGISTRY-}report-service
+        container_name: report-service
+        hostname: report-service
+        restart: always
+        depends_on:
+            - report-service-db
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        ports:
+            - "3030:80"
+            - "3031:443" 
+        build:
+            context: .
+            dockerfile: ReportService/Services.Report.Api/Dockerfile
+
+#######################   DATABASES   ######################
+
+    authentication-service-db:
+        image: "postgres"
+        container_name: customer-service-db
+        hostname: customer-service-db
+        restart: always
+        ports:
+          - "3510:5432"
+        environment:
+          - POSTGRES_USER=directoryAppUser
+          - POSTGRES_PASSWORD=WQS_%Lhz7V5.]%p6
+          - POSTGRES_DB=customerservicedb
+        volumes:
+          - customer-service-db-data:/var/lib/postgresql/data/
+
+    contact-service-db:
+        image: "postgres"
+        container_name: product-service-db
+        hostname: product-service-db
+        restart: always
+        ports:
+          - "3520:5432"
+        environment:
+          - POSTGRES_USER=directoryAppUser
+          - POSTGRES_PASSWORD=g&fkwm8AsBV2ZrS.
+          - POSTGRES_DB=productservicedb
+        volumes:
+          - product-service-db-data:/var/lib/postgresql/data/
+    
+    order-service-db:
+        image: "postgres"
+        container_name: order-service-db
+        hostname: order-service-db
+        restart: always
+        ports:
+          - "3530:5432"
+        environment:
+          - POSTGRES_USER=directoryAppUser
+          - POSTGRES_PASSWORD=rt4nHfBK&pbAzb&
+          - POSTGRES_DB=orderservicedb
+        volumes:
+          - order-service-db-data:/var/lib/postgresql/data/
+
+    report-service-db:
+        image: "postgres"
+        container_name: report-service-db
+        hostname: report-service-db
+        restart: always
+        ports:
+          - "3540:5432"
+        environment:
+          - POSTGRES_USER=directoryAppUser
+          - POSTGRES_PASSWORD=rt4nHfBK&pbAzb&
+          - POSTGRES_DB=reportservicedb
+        volumes:
+          - report-service-db-data:/var/lib/postgresql/data/
+
+#######################   MESSAGE BROKER   ######################
+    rabbitmq:
+        image: rabbitmq:3-management-alpine
+        container_name: rabbitmq
+        hostname: rabbitmq
+        restart: always
+        environment:
+            - RABBITMQ_DEFAULT_USER=directoryAppUser
+            - RABBITMQ_DEFAULT_PASS=k638nsHSRGvHbP3b
+        ports:
+            - "5672:5672" # AMQP protocol port
+            - "15672:15672" # HTTP management UI
+        
+
+volumes:
+  customer-service-db-data:
+  product-service-db-data:
+  order-service-db-data:
+  report-service-db-data:
+ 
+ 

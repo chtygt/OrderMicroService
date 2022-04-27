@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Services.Shared.Data\Services.Shared.Data.csproj" />
+    <ProjectReference Include="..\Services.Product.Data\Services.Product.Data.csproj" />
+    <ProjectReference Include="..\Services.Product.Model\Services.Product.Model.csproj" />
+  </ItemGroup>
+
+</Project>
