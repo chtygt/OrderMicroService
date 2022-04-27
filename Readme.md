@@ -18,27 +18,27 @@ Aşağıdaki urller ile doğrudan servislere erişebilirsiniz.
  
 
 customer-service
-	http://localhost:5033
+	-http://localhost:5033
 customer-service-db
-	customer-service-db:3510
+	-customer-service-db:3510
 		
 product-service
-	http://localhost:5033
+	-http://localhost:5033
 product-service-db
-	product-service-db:3520
+	-product-service-db:3520
 
 order-service
-	http://localhost:5033
+	-http://localhost:5033
 order-service-db
-	order-service-db:3530
+	-order-service-db:3530
 
 report-service
-	http://localhost:5033
+	-http://localhost:5033
 report-service-db
-	report-service-db:3540
+	-report-service-db:3540
 	
 Rabbitmq
-	http://localhost:5672
+	-http://localhost:5672
 	
 
 
