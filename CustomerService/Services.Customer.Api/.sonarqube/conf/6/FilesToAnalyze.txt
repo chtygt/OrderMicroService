@@ -1,0 +1,12 @@
+﻿C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\Controllers\CustomerController.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\Program.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\Services\CustomerService.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\obj\Debug\net6.0\Services.Customer.Api.GlobalUsings.g.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\obj\Debug\net6.0\Services.Customer.Api.AssemblyInfo.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\obj\Debug\net6.0\Services.Customer.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\appsettings.Development.json
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\appsettings.json
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\appsettings.Test.json
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\Dockerfile
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\Properties\launchSettings.json

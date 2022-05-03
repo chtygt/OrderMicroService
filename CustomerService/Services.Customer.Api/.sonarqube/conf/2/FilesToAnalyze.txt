@@ -1,0 +1,2 @@
+﻿C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Model\Customer.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Model\EntityBase.cs

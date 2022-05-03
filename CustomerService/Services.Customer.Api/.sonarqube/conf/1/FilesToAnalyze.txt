@@ -1,0 +1,2 @@
+﻿C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Data\Repository\IRepository.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Data\Repository\Repository.cs

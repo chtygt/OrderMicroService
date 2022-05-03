@@ -1,0 +1,1 @@
+﻿C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Authentication.Client\AuthenticationTokenDependencyInjectionExtensions.cs

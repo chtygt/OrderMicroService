@@ -1,0 +1,14 @@
+﻿C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\ApiRequest.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\ApiResult.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\AuthenticationOptions.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\Enums\ContactInfoType.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\Exceptions\BadRequestException.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\Exceptions\ConflictException.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\Exceptions\InternalServerErrorException.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\Exceptions\NotFoundException.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\Exceptions\UnauthorizedException.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\LoggedUser.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\LoginModel.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\RegisterUserModel.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\ServiceResult.cs
+C:\Users\Eralp\Desktop\Rise\Orders\Shared\Services.Shared.Models\TokenResponseModel.cs

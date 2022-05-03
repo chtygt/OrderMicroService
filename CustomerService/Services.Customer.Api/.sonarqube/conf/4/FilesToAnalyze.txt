@@ -1,0 +1,5 @@
+﻿C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Data\CustomerDataDependencyInjectionExtensions.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Data\CustomerDbContext.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Data\Migrations\20220426064840_Initial.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Data\Migrations\20220426064840_Initial.Designer.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Data\Migrations\CustomerDbContextModelSnapshot.cs

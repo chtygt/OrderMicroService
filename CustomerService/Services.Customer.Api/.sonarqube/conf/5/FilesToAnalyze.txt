@@ -1,0 +1,3 @@
+﻿C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Repositories\CustomerRepositoriesDependencyInjectionExtensions.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Repositories\Interfaces\ICustomerRepository.cs
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Repositories\Repositories\CustomerRepository.cs

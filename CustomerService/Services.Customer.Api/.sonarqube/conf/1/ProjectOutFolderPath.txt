@@ -1,0 +1,1 @@
+C:\Users\Eralp\Desktop\Rise\Orders\CustomerService\Services.Customer.Api\.sonarqube\out\1
