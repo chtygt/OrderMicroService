@@ -14,32 +14,51 @@ Bilgisayarınızda docker ve docker-compose kurulu ise docker-compose.yml dosyas
 Docker Desktop ve Visual studio 2022 kurulu ise doğrudan VS 2022 içerisinden docker-compose projesini çalıştırabilirsiniz. 
 Veritabanları development ortamında otomatik migrate edilmektedir.  
 
-Aşağıdaki urller ile doğrudan servislere erişebilirsiniz.
+Aşağıdaki adresler ile servislere erişebilirsiniz.
  
 
 customer-service
-	-http://localhost:5033
+
+	http://localhost:5033
+
 customer-service-db
-	-customer-service-db:3510
+
+	customer-service-db:3510
 		
+
 product-service
-	-http://localhost:5033
+	
+	http://localhost:5033
+
 product-service-db
-	-product-service-db:3520
+	
+	product-service-db:3520
 
 order-service
-	-http://localhost:5033
+	
+	http://localhost:5033
+
 order-service-db
-	-order-service-db:3530
+	
+	order-service-db:3530
+
 
 report-service
-	-http://localhost:5033
+	
+	http://localhost:5033
+
 report-service-db
-	-report-service-db:3540
 	
+	report-service-db:3540
+	
+
 Rabbitmq
-	-http://localhost:5672
 	
+	http://localhost:5672
+	
+
+
+Sonarqube raporu
 
 ![alt text](https://github.com/chtygt/OrderMicroService/blob/master/Sonarqube.jpg?raw=true)
 
